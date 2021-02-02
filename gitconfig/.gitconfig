@@ -1,0 +1,13 @@
+[user]
+	email = mbprtpnix@gmail.com
+	name = MrGntlmn
+	signingKey = mbprtpnix@gmail.com
+
+[init]
+	defaultBranch = main
+
+[commit]
+  gpgsign = true
+
+[tag]
+  gpgSign = true
