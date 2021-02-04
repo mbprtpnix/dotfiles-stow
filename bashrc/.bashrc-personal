@@ -3,3 +3,12 @@ alias mirrorx="sudo reflector --verbose --latest 25 --age 6 --protocol https --s
 
 # System
 alias update="sudo pacman -Syu"
+
+# ls
+alias l='LC_COLLATE=C ls -lh --group-directories-first --color=auto'
+alias ll='LC_COLLATE=C ls -lah --group-directories-first --color=auto'
+alias la='LC_COLLATE=C ls -A --group-directories-first --color=auto'
+alias lm='LC_COLLATE=C ls -m --group-directories-first --color=auto'
+alias lr='LC_COLLATE=C ls -R --group-directories-first --color=auto'
+alias lg='LC_COLLATE=C ls -l --group-directories-first --color=auto'
+alias lh='LC_COLLATE=C ls -AhHl --group-directories-first --color=auto'
